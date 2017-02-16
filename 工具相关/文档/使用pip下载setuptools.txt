@@ -1,0 +1,7 @@
+1:pip安装setuptools会自动安装依赖的包
+
+
+2：pip常用的命令
+   pip install 包名  （安装包）
+   pip uninstall 包名  （卸载包）
+   pip list            （查看已下载的包）

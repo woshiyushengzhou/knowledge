@@ -1,0 +1,10 @@
+输入：
+netsh wlan show profile
+会显示你迄今登过的WiFi电脑自动生成的配置文件
+输入：
+netsh wlan show profile WiFi名 key=clear
+
+
+
+
+source:不起作用   可能是/bin/bash权限不够  需要修改权限sudo chmod +777 /bin/bash

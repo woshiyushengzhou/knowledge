@@ -1,0 +1,16 @@
+vundle用于管理vim插件：
+
+set nocompatibl
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'L9'
+Plugin 'git://git.wincent.com/command-t.git'
+Plugin 'file:///home/gmarik/path/to/plugin'
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'ascenator/L9', {'name': 'newL9'}
+call vundle#end()
+filetype plugin indent on
+filetype plugin on

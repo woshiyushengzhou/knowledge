@@ -1,0 +1,1 @@
+安装了open vm tools以后要用：vmhgfs-fuse .host:/ /mnt/hgfs

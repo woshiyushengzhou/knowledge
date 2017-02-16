@@ -1,0 +1,2 @@
+创建项目：django-admin.py startproject PPNotes
+启动：python manage.py runserver 0.0.0.0:8080
